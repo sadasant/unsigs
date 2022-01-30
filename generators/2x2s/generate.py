@@ -8,14 +8,13 @@ horizontal_pairs = list(map(tuple, horizontal_pairs))
 vertical_pairs = json.load(open('../vertical_pairs/vertical_pairs.json'))
 vertical_pairs = list(map(tuple, vertical_pairs))
 
-vertical_booleans = [[False] * 31119] * 31119
-for vPair in vertical_pairs:
-    vertical_booleans[vPair[0]][vPair[1]] = True
+# vertical_booleans = np.full((31119 * 31119), False)
+# for vPair in vertical_pairs:
+#     vertical_booleans[vPair[0]*31119 + vPair[1]] = True
 
 def is_vertical(a, b):
-    return vertical_booleans[a][b]
-
-print(vertical_booleans[0])
+    return (a, b) in vertical_pairs
+    # return vertical_booleans[a*31119 + b]
 
 # 0 1
 # 2 3
@@ -47,10 +46,10 @@ def generate():
     for i in product(horizontal_pairs, repeat=2):
         if i[0] is not i[1]:
             square = (i[0][0], i[0][1], i[1][0], i[1][1])
-            if count % 10000 == 0:
-                print(count, end="\r")
             if is_2x2(square):
                 count += 1
+                if count % 1000 == 0:
+                    print(count, end="\r")
                 # result.append(square)
     return []
 
