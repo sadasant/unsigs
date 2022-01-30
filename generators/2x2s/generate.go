@@ -69,9 +69,17 @@ func main() {
 	println(is2x2(Square{10796, 10798, 10818, 10820}))
 
 	fileName := "2x2s.json"
-	err := ioutil.WriteFile(fileName, []byte{}, 0644)
-	if err != nil {
-		log.Fatal("Failed to write", fileName)
+	len_hPairs := len(hPairs)
+	base := 4
+	page := 1
+	start := (len_hPairs / base) * (page - 1)
+	end := (len_hPairs / base) * page
+
+	if start == 0 {
+		err := ioutil.WriteFile(fileName, []byte{}, 0644)
+		if err != nil {
+			log.Fatal("Failed to write", fileName)
+		}
 	}
 
 	file, err := os.OpenFile(fileName, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600)
@@ -84,14 +92,10 @@ func main() {
 		panic(err)
 	}
 
-	len_hPairs := len(hPairs)
-
 	mar5manTop := 47379186
 	jTemplate := "[%v,%v,%v,%v],"
 
 	count := 0
-	start := (len_hPairs / 4) * 0
-	end := (len_hPairs / 4) * 1
 L:
 	for i := start; i < end; i++ {
 		jsonString := ""
@@ -120,7 +124,11 @@ L:
 
 	println(count, "should be", mar5manTop)
 
-	if _, err = file.WriteString("[]]"); err != nil {
+	endString := "]"
+	if page != base {
+		endString = ","
+	}
+	if _, err = file.WriteString(endString); err != nil {
 		panic(err)
 	}
 }
