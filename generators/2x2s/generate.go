@@ -41,8 +41,8 @@ func init() {
 		hMap[toIndex(h[0], h[1])] = true
 	}
 	// Garbage collecting
-	hPairs = [][2]int{}
-	vPairs = [][2]int{}
+	// hPairs = [][2]int{}
+	// vPairs = [][2]int{}
 }
 
 type Square [4]int
@@ -74,6 +74,7 @@ func main() {
 	page := 1
 	start := (len_hPairs / base) * (page - 1)
 	end := (len_hPairs / base) * page
+	println(start, end, page, base)
 
 	if start == 0 {
 		err := ioutil.WriteFile(fileName, []byte{}, 0644)
