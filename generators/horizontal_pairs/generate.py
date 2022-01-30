@@ -85,11 +85,13 @@ print(is_horizontal_pair((10, 231)))  # Should be true!
 
 def generate():
     all_horizontal_pairs = []
-    print(int(31119 / 11))
-    for indices in product(range(1, int(31119 / 11)), repeat=2):
+    for indices in product(unsig_range, repeat=2):
         if indices[0] is not indices[1]:
             if is_horizontal_pair(indices):
                 all_horizontal_pairs.append(indices)
+        else:
+            if indices[0] % 1000 is 0:
+                print(indices[0])
     return all_horizontal_pairs
 
 time(lambda: write(generate(), "horizontal_pairs.json"))
