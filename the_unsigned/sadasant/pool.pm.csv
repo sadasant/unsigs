@@ -1,0 +1,195 @@
+"Policy","Asset Id","Asset name","Fingerprint","Minted at","Quantity","URL","Properties"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig12397","unsig12397","asset18q3x90q3e7wgh4kcf9qf4z6wxg5dmmk4p48qmz","2021-05-29T21:00:31.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig12397","unsigs / rotations","5","0
+90
+180
+270
+0","unsigs / num_props","1","5","unsigs / multipliers","5","0.5
+1
+1
+1
+2","unsigs / index","1","12397","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Blue
+Red
+Green
+Green
+Red","title","1","unsig_12397","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig12142","unsig12142","asset1595c90pm5egwfwahculfpqgtvlr7hufdj7flfx","2021-06-03T10:55:54.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig12142","unsigs / rotations","5","0
+180
+0
+90
+90","unsigs / num_props","1","5","unsigs / multipliers","5","0.5
+1
+2
+4
+4","unsigs / index","1","12142","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Blue
+Green
+Red
+Red
+Green","title","1","unsig_12142","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig30223","unsig30223","asset1dmw5mau8yaqc0tz0g489gwuq7aa7jfnch30uca","2021-06-10T14:46:07.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig30223","unsigs / rotations","6","90
+0
+270
+0
+90
+180","unsigs / num_props","1","6","unsigs / multipliers","6","1
+1
+1
+1
+1
+2","unsigs / index","1","30223","unsigs / distributions","6","CDF
+CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","6","Red
+Green
+Green
+Blue
+Blue
+Red","title","1","unsig_30223","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig31022","unsig31022","asset10e4f97jgzra5a9ws5nu9hr0tuhpygzjwfl8xfw","2021-06-16T04:07:02.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig31022","unsigs / rotations","6","270
+0
+90
+0
+270
+180","unsigs / num_props","1","6","unsigs / multipliers","6","1
+1
+1
+1
+1
+2","unsigs / index","1","31022","unsigs / distributions","6","CDF
+CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","6","Red
+Green
+Green
+Blue
+Blue
+Red","title","1","unsig_31022","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig26642","unsig26642","asset1nytlcyzqx2qp67cm4fthrss84424xzsnr7uz6y","2021-06-23T18:12:01.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig26642","unsigs / rotations","6","90
+180
+270
+0
+90
+0","unsigs / num_props","1","6","unsigs / multipliers","6","1
+2
+2
+2
+2
+2","unsigs / index","1","26642","unsigs / distributions","6","CDF
+CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","6","Blue
+Red
+Red
+Green
+Green
+Blue","title","1","unsig_26642","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig15490","unsig15490","asset1596fwapg4jaln6j6mmx8cdvs6xpmndgve7j0g3","2021-07-15T20:29:17.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig15490","unsigs / rotations","5","180
+0
+270
+90
+180","unsigs / num_props","1","5","unsigs / multipliers","5","0.5
+1
+1
+1
+2","unsigs / index","1","15490","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Green
+Red
+Red
+Blue
+Blue","title","1","unsig_15490","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig26701","unsig26701","asset1rz4569hclcxv07lx9867khwwu6wjeucc5lgtkz","2021-07-23T14:38:02.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig26701","unsigs / rotations","6","0
+0
+90
+180
+270
+90","unsigs / num_props","1","6","unsigs / multipliers","6","1
+1
+1
+2
+2
+2","unsigs / index","1","26701","unsigs / distributions","6","CDF
+CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","6","Green
+Blue
+Blue
+Red
+Red
+Green","title","1","unsig_26701","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig01398","unsig01398","asset1relvcr6t84hu3xn8tx2r059vnspkt3aftxz03m","2021-07-29T09:43:44.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig01398","unsigs / rotations","3","0
+0
+180","unsigs / num_props","1","3","unsigs / multipliers","3","0.5
+0.5
+4","unsigs / index","1","1398","unsigs / distributions","3","Normal
+CDF
+CDF","unsigs / colors","3","Red
+Green
+Blue","title","1","unsig_01398","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"6179eb9f878f8b46190425501aefc621d3c31ea303d2faa3a3658256","FromTheVoid35","From The Void - UM0076 #035","asset14pyljlvmz9g68r6khrr6ammcrhntyp3hk66ryj","2021-08-27T15:33:56.000Z","1","https://pool.pm/6179eb9f878f8b46190425501aefc621d3c31ea303d2faa3a3658256.FromTheVoid35","url","1","https://artaphakt.wordpress.com/","number","1","35","copyright","1","Copyright / artaphakt / ©2021","Twitter","1","https://twitter.com/artaphakt","Tags","1","intothevoid, unsigmosh, unsig","Rarity","1","Limited Run of 50","Project","1","artaphakt UnsigMoshing 2021","Original Unsig","1","https://unsigs.com/details/01082","Instagram","1","https://instagram.com/artaphakt","In Collaboration With","1","https://twitter.com/uber_boring_man","Collection","1","artaphakt UnsigMosh 2021"
+"a84ad65a29b6e2033025f7053273fc5b63a1bc9101244ec95e23b3af","Bassig1482","Bassig1482","asset1ps03qv7hjqr4ylf64lshjyh8j6cshq90swg54z","2021-10-11T11:36:59.000Z","1","https://pool.pm/a84ad65a29b6e2033025f7053273fc5b63a1bc9101244ec95e23b3af.Bassig1482","Url Gallery - Website","1","https://www.pervanderhorst.com","Url Bas Meeuws - Website","1","https://www.basmeeuws.com","Url Bas Meeuws - Twitter","1","https://twitter.com/basmeeuws","Url Bas Meeuws - Instagram","1","https://www.instagram.com/basmeeuws","Number of flowers","1","Multiple","Insects / Arachnids","1","None","Flower type","1","Hortensia","Colour of flower","1","White","Collection","1","Bas Meeuws X unsig1102","Asset Title","1","Bassig1482"
+"a84ad65a29b6e2033025f7053273fc5b63a1bc9101244ec95e23b3af","Bassig1455","Bassig1455","asset1ue6e4ufjqw4hrs9rytkgmfa097jhp6c93sflym","2021-10-13T01:20:36.000Z","1","https://pool.pm/a84ad65a29b6e2033025f7053273fc5b63a1bc9101244ec95e23b3af.Bassig1455","Url Gallery - Website","1","https://www.pervanderhorst.com","Url Bas Meeuws - Website","1","https://www.basmeeuws.com","Url Bas Meeuws - Twitter","1","https://twitter.com/basmeeuws","Url Bas Meeuws - Instagram","1","https://www.instagram.com/basmeeuws","Number of flowers","1","1","Insects / Arachnids","1","Hoverfly, Crab spider","Flower type","1","Pansy","Colour of flower","1","Purple","Collection","1","Bas Meeuws X unsig1102","Asset Title","1","Bassig1455"
+"a84ad65a29b6e2033025f7053273fc5b63a1bc9101244ec95e23b3af","Bassig1488","Bassig1488","asset1q78u7j4e43njk3nj75d6p7trhhu3c8slrgwkg5","2021-10-13T06:47:20.000Z","1","https://pool.pm/a84ad65a29b6e2033025f7053273fc5b63a1bc9101244ec95e23b3af.Bassig1488","Url Gallery - Website","1","https://www.pervanderhorst.com","Url Bas Meeuws - Website","1","https://www.basmeeuws.com","Url Bas Meeuws - Twitter","1","https://twitter.com/basmeeuws","Url Bas Meeuws - Instagram","1","https://www.instagram.com/basmeeuws","Number of flowers","1","1","Insects / Arachnids","1","None","Flower type","1","Iris","Colour of flower","1","White","Collection","1","Bas Meeuws X unsig1102","Asset Title","1","Bassig1488"
+"a84ad65a29b6e2033025f7053273fc5b63a1bc9101244ec95e23b3af","Bassig0800","Bassig0800","asset19dkdc8u9vf0t2ws3xv9kzhneqh8ufc7uzu6j3t","2021-10-18T00:46:34.000Z","1","https://pool.pm/a84ad65a29b6e2033025f7053273fc5b63a1bc9101244ec95e23b3af.Bassig0800","Url Gallery - Website","1","https://www.pervanderhorst.com","Url Bas Meeuws - Website","1","https://www.basmeeuws.com","Url Bas Meeuws - Twitter","1","https://twitter.com/basmeeuws","Url Bas Meeuws - Instagram","1","https://www.instagram.com/basmeeuws","Number of flowers","1","1","Insects / Arachnids","1","None","Flower type","1","Anthurium","Colour of flower","1","Pink","Collection","1","Bas Meeuws X unsig1102","Asset Title","1","Bassig0800"
+"a84ad65a29b6e2033025f7053273fc5b63a1bc9101244ec95e23b3af","Bassig1370","Bassig1370","asset1w482fead8geahs9k87aczygpdufvr522025f23","2021-10-18T01:27:15.000Z","1","https://pool.pm/a84ad65a29b6e2033025f7053273fc5b63a1bc9101244ec95e23b3af.Bassig1370","Url Gallery - Website","1","https://www.pervanderhorst.com","Url Bas Meeuws - Website","1","https://www.basmeeuws.com","Url Bas Meeuws - Twitter","1","https://twitter.com/basmeeuws","Url Bas Meeuws - Instagram","1","https://www.instagram.com/basmeeuws","Number of flowers","1","1","Insects / Arachnids","1","None","Flower type","1","Gerbera","Colour of flower","1","Pink","Collection","1","Bas Meeuws X unsig1102","Asset Title","1","Bassig1370"
+"e8209a96a456202276f66224241a703676122d606d208fe464f2e09f","WhatLiesWithin0885","What Lies Within #0885","asset1q8kmsn9f78e56qwu8zxnwazn638j3986a9rran","2021-11-04T13:03:50.000Z","1","https://pool.pm/e8209a96a456202276f66224241a703676122d606d208fe464f2e09f.WhatLiesWithin0885","copyright","1","2021 © owned by the artists","Twitter","1","@uber_boring_man x @EgonFX","Set Probability","1","1.67 %","Set Parameters","6","01 Only / NO
+Edges Only / NO
+Inverse Inside / NO
+Mono Inside / NO
+Palettes / 2
+Reversed Palettes / YES","Set Number","1","9 of 25","Set Name","1","CLASSIC 20 II","Collection","1","“What Lies Within” Unsig 01082 - The Polaroid Reimagined","Artists","1","STEEL x TurboEgon"
+"e8209a96a456202276f66224241a703676122d606d208fe464f2e09f","WhatLiesWithin4142","What Lies Within #4142","asset1x8p4dtpg46ae6lj90ma7zxlw7drhz98qq835ak","2021-11-04T13:14:34.000Z","1","https://pool.pm/e8209a96a456202276f66224241a703676122d606d208fe464f2e09f.WhatLiesWithin4142","copyright","1","2021 © owned by the artists","Twitter","1","@uber_boring_man x @EgonFX","Set Probability","1","8.33 %","Set Parameters","6","01 Only / NO
+Edges Only / YES
+Inverse Inside / NO
+Mono Inside / NO
+Palettes / 7
+Reversed Palettes / NO","Set Number","1","20 of 25","Set Name","1","CLASSIC 70","Collection","1","“What Lies Within” Unsig 01082 - The Polaroid Reimagined","Artists","1","STEEL x TurboEgon"
+"e8209a96a456202276f66224241a703676122d606d208fe464f2e09f","WhatLiesWithin3059","What Lies Within #3059","asset1hhvgpqjsy5g2kzkr324n9xj4ddl3c9eh2scp2g","2021-11-04T15:22:32.000Z","1","https://pool.pm/e8209a96a456202276f66224241a703676122d606d208fe464f2e09f.WhatLiesWithin3059","copyright","1","2021 © owned by the artists","Twitter","1","@uber_boring_man x @EgonFX","Set Probability","1","7.5 %","Set Parameters","6","01 Only / YES
+Edges Only / NO
+Inverse Inside / NO
+Mono Inside / NO
+Palettes / 6
+Reversed Palettes / YES","Set Number","1","18 of 25","Set Name","1","CLASSIC 60","Collection","1","“What Lies Within” Unsig 01082 - The Polaroid Reimagined","Artists","1","STEEL x TurboEgon"
+"188b779a509f77c61f11fcca94a271fa850cb5d5d12c0f3dfe44edcf","UnsignedTeddy61","Unsigned Teddy #61","asset1rvynfk0tulck725mfl6pr50zzcxxdwm6w7e3yr","2021-11-17T14:45:31.000Z","1","https://pool.pm/188b779a509f77c61f11fcca94a271fa850cb5d5d12c0f3dfe44edcf.UnsignedTeddy61","description","1","Teddy (SADASANT) #61","author","1","Crypto Matt"
+"5f5550a151386d0f879b81b80d04c6d94a439d4cc81f529ecad07eb1","Visage0069","Visage 0069","asset1a596spfxg48kzcq4jewy6a526p8yd3380muut9","2021-12-14T09:04:09.000Z","1","https://pool.pm/5f5550a151386d0f879b81b80d04c6d94a439d4cc81f529ecad07eb1.Visage0069"
+"aa919cb65775a5b84590155461131ec5329893ca3a88bdac88fdac43","WRAITHEX0020","Wraith Exclusives","asset1dm2javslhn402tsyyqksyq379wyjrel6zv7xlq","2021-12-14T11:03:32.000Z","1","https://pool.pm/aa919cb65775a5b84590155461131ec5329893ca3a88bdac88fdac43.WRAITHEX0020","suit","1","ugly sweater","item2","1","mistletoe","item1","1","candy cane","eyes","1","default","collection","1","holiday 2021","artist","1","@wraithCNFT"
+"dbdb1ba1167116ef6a62a51d51971a9b58e481f0372e0c39f70f8dee","19DYEING","19 DYEING","asset13mdt7fr36wfpzh5lgk7a5jezapcvwxxwcdfvz6","2021-12-16T03:11:49.000Z","1","https://pool.pm/dbdb1ba1167116ef6a62a51d51971a9b58e481f0372e0c39f70f8dee.19DYEING","description","1",""
+"f0ff48bbb7bbe9d59a40f1ce90e9e9d0ff5002ec48f232b49ca0fb9a","dr","$dr","asset1fw3w69uamh6n0hyprf89dhp65hs0yfd4zdxx3j","2021-12-17T17:55:33.000Z","1","https://pool.pm/f0ff48bbb7bbe9d59a40f1ce90e9e9d0ff5002ec48f232b49ca0fb9a.dr","website","1","https://adahandle.com","description","1","The Handle Standard","core","5","handleEncoding / utf-8
+og / 0
+prefix / $
+termsofuse / https://adahandle.com/tou
+version / 0","augmentations","0",""
+"f0ff48bbb7bbe9d59a40f1ce90e9e9d0ff5002ec48f232b49ca0fb9a","dll32exe","$dll32exe","asset13lllqfyt98wm4aetnd3dg4ls2a9n6vskk3adxd","2021-12-17T17:59:34.000Z","1","https://pool.pm/f0ff48bbb7bbe9d59a40f1ce90e9e9d0ff5002ec48f232b49ca0fb9a.dll32exe","website","1","https://adahandle.com","description","1","The Handle Standard","core","5","handleEncoding / utf-8
+og / 0
+prefix / $
+termsofuse / https://adahandle.com/tou
+version / 0","augmentations","0",""
+"f0ff48bbb7bbe9d59a40f1ce90e9e9d0ff5002ec48f232b49ca0fb9a","berserk","$berserk","asset12ahj34rmlrmvkkc6rmp424jmq0myf833u9cahm","2021-12-17T18:06:05.000Z","1","https://pool.pm/f0ff48bbb7bbe9d59a40f1ce90e9e9d0ff5002ec48f232b49ca0fb9a.berserk","website","1","https://adahandle.com","description","1","The Handle Standard","core","5","handleEncoding / utf-8
+og / 0
+prefix / $
+termsofuse / https://adahandle.com/tou
+version / 0","augmentations","0",""
+"f0ff48bbb7bbe9d59a40f1ce90e9e9d0ff5002ec48f232b49ca0fb9a","sadasant","$sadasant","asset1p00k5ffdm9hpr75ts4j7fuldhpvtulx63gk4ua","2021-12-17T18:24:50.000Z","1","https://pool.pm/f0ff48bbb7bbe9d59a40f1ce90e9e9d0ff5002ec48f232b49ca0fb9a.sadasant","website","1","https://adahandle.com","description","1","The Handle Standard","core","5","handleEncoding / utf-8
+og / 1
+prefix / $
+termsofuse / https://adahandle.com/tou
+version / 0","augmentations","0",""
+"aa919cb65775a5b84590155461131ec5329893ca3a88bdac88fdac43","WRAITHEX0111","Wraith Exclusives","asset17upzk8ns4vdg86c5d70c405s7k0nzmdtfv90gm","2022-01-03T13:49:30.000Z","1","https://pool.pm/aa919cb65775a5b84590155461131ec5329893ca3a88bdac88fdac43.WRAITHEX0111","token reward","1","redeemable for a free mint of wraith's next drop, the veil","suit","1","the OG","item","1","void token","eyes","1","shades","collection","1","void rewards","artist","1","@wraithCNFT"
+"5f5550a151386d0f879b81b80d04c6d94a439d4cc81f529ecad07eb1","Visage0223","Visage 0223","asset1tfaseftu7dpwv4v709lvv0npyj9g3hjlsvyg4f","2022-01-19T19:40:37.000Z","1","https://pool.pm/5f5550a151386d0f879b81b80d04c6d94a439d4cc81f529ecad07eb1.Visage0223"
