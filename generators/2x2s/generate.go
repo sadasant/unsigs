@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"os"
 )
 
-type Pair [2]int
-type Pairs []Pair
+type Pairs [][2]int
 
-func readPairs(path string) Pairs {
+func readPairs(path string) [][2]int {
 	content, err := ioutil.ReadFile(path)
 	if err != nil {
 		log.Fatal("Error when opening file: ", err)
 	}
-	var pairs Pairs
+	var pairs [][2]int
 	err = json.Unmarshal(content, &pairs)
 	if err != nil {
 		log.Fatal("Error during Unmarshal(): ", err)
@@ -23,86 +23,104 @@ func readPairs(path string) Pairs {
 	return pairs
 }
 
-var hPairs Pairs = readPairs("../horizontal_pairs/horizontal_pairs.json")
-var hMap = map[Pair]bool{}
+var hPairs [][2]int = readPairs("../horizontal_pairs/horizontal_pairs.json")
+var hMap = [31119 * 31119]bool{}
 
-func isH(pair Pair) bool {
-	return hMap[pair]
-}
+var vPairs [][2]int = readPairs("../vertical_pairs/vertical_pairs.json")
+var vMap = [31119 * 31119]bool{}
 
-var vPairs Pairs = readPairs("../vertical_pairs/vertical_pairs.json")
-var vMap = map[Pair]bool{}
-
-func isV(pair Pair) bool {
-	return vMap[pair]
+func toIndex(a, b int) int {
+	return a*31119 + b
 }
 
 func init() {
 	for _, v := range vPairs {
-		vMap[v] = true
+		vMap[toIndex(v[0], v[1])] = true
 	}
 	for _, h := range hPairs {
-		hMap[h] = true
+		hMap[toIndex(h[0], h[1])] = true
 	}
+	// Garbage collecting
+	hPairs = [][2]int{}
+	vPairs = [][2]int{}
 }
 
 type Square [4]int
 
 func is2x2(square Square) bool {
-	unique := []int{}
-L:
-	for _, v := range square {
-		for _, u := range unique {
-			if v == u {
-				continue L
-			}
-		}
-		unique = append(unique, v)
-	}
-	if len(unique) != 4 {
-		return false
-	}
 	a := square[0]
 	b := square[1]
 	c := square[2]
 	d := square[3]
-	return isH(Pair{a, b}) && isH(Pair{c, d}) && isV(Pair{a, c}) && isV(Pair{b, d})
+	// Unique. We're assuming a,b and c,d are good horizontal pairs.
+	if (a == c || a == d) ||
+		(b == c || b == d) {
+		return false
+	}
+	// Skipping horizontals since we start with them
+	// return isH(Pair{a, b}) && isH(Pair{c, d}) && isV(Pair{a, c}) && isV(Pair{b, d})
+	return vMap[toIndex(a, c)] && vMap[toIndex(b, d)]
 }
 
 func main() {
 	// Quick test. Both should be true.
-	println(isH(Pair{10, 231}))
-	println(isV(Pair{22888, 28060}))
+	println(hMap[toIndex(10, 231)])
+	println(vMap[toIndex(22888, 28060)])
 	println(is2x2(Square{10796, 10798, 10818, 10820}))
 
-	// The key to make this the fastest possible is the map[Pair]bool transformation we did above.
-
-	var squares []Square
-L:
-	for _, h1 := range hPairs {
-		for _, h2 := range hPairs {
-			if h1 == h2 {
-				continue L
-			}
-			square := Square{h1[0], h1[1], h2[0], h2[1]}
-			if is2x2(square) {
-				squares = append(squares, square)
-				if len(squares)%1000 == 0 {
-					fmt.Printf("%v\r", len(squares))
-				}
-			}
-		}
-	}
-	print(len(squares))
-
-	file, err := json.Marshal(squares)
-	if err != nil {
-		log.Fatal("Failed to marshal the squares.")
-	}
-
 	fileName := "2x2s.json"
-	err = ioutil.WriteFile(fileName, file, 0644)
+	err := ioutil.WriteFile(fileName, []byte{}, 0644)
 	if err != nil {
 		log.Fatal("Failed to write", fileName)
+	}
+
+	file, err := os.OpenFile(fileName, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600)
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+
+	if _, err = file.WriteString("["); err != nil {
+		panic(err)
+	}
+
+	len_hPairs := len(hPairs)
+
+	mar5manTop := 47379186
+	jTemplate := "[%v,%v,%v,%v],"
+
+	count := 0
+	start := (len_hPairs / 4) * 0
+	end := (len_hPairs / 4) * 1
+L:
+	for i := start; i < end; i++ {
+		jsonString := ""
+		iTemplate := ",%s"
+		if i == 0 {
+			iTemplate = "%s"
+		}
+		for j := start; j < end; j++ {
+			if i == j {
+				continue L
+			}
+			h1 := hPairs[i]
+			h2 := hPairs[j]
+			if is2x2(Square{h1[0], h1[1], h2[0], h2[1]}) {
+				jsonString += fmt.Sprintf(jTemplate, h1[0], h1[1], h2[0], h2[1])
+				if count%10000 == 0 {
+					print(i, " ", j, " ", start, "-", end, " ", count, "\r")
+				}
+				count += 1
+			}
+		}
+		if _, err = file.WriteString(fmt.Sprintf(iTemplate, jsonString[0:len(jsonString)-1])); err != nil {
+			panic(err)
+		}
+	}
+
+	println(count, "should be", mar5manTop)
+
+	if _, err = file.WriteString("[]]"); err != nil {
+		panic(err)
 	}
 }
