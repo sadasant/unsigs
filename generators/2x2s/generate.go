@@ -35,12 +35,10 @@ func init() {
 }
 
 func is2x2(a, b, c, d uint16) bool {
-	// Skipping horizontals since we start with them
-	// return isH(Pair{a, b}) && isH(Pair{c, d}) && isV(Pair{a, c}) && isV(Pair{b, d})
+	// We're assuming a,b and c,d are good horizontal pairs.
 	if a == c || a == d || !vMap[a][c] {
 		return false
 	}
-	// Unique. We're assuming a,b and c,d are good horizontal pairs.
 	if b == c || b == d || !vMap[b][d] {
 		return false
 	}
