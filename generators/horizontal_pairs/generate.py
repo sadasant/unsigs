@@ -14,6 +14,7 @@ def horizontal_match_group_a(n):
     group_a = (rotations.get("90") or []) + (rotations.get("270") or [])
     return json.dumps(group_a)
 
+
 @functools.lru_cache(maxsize=31119 * 2)
 def horizontal_match_group_b(n_with_inverted):
     n = n_with_inverted[0]
@@ -65,24 +66,6 @@ def is_horizontal_pair(pair):
     return left_group_a == right_group_a and left_group_b == right_group_b
 
 
-print(is_horizontal_pair((26642, 26701)))
-print(is_horizontal_pair((12142, 12397)))
-print(is_horizontal_pair((15490, 16315)))
-print(is_horizontal_pair((10796, 10798)))
-print(is_horizontal_pair((1507, 144)))
-print(is_horizontal_pair((148, 6)))
-print(is_horizontal_pair((22849, 12736)))  # !!! Correct!
-print(is_horizontal_pair((28418, 28353)))
-print(is_horizontal_pair((23538, 23311)))
-print(is_horizontal_pair((10, 231)))  # Should be true!
-
-
-# /show numbers:6121,19880,1189,9110 columns:2
-# Should be false!
-# test2x2 = [(6121, 1189), (19880, 9110)]
-# print(is_2x2(test2x2))
-
-
 def generate():
     all_horizontal_pairs = []
     for indices in product(unsig_range, repeat=2):
@@ -94,7 +77,5 @@ def generate():
                 print(indices[0])
     return all_horizontal_pairs
 
-time(lambda: write(generate(), "horizontal_pairs.json"))
 
-print(is_horizontal_pair((6121, 19880)))  # Should be false!
-print(is_horizontal_pair((1189, 9110)))  # Should be false!
+time(lambda: write(generate(), "horizontal_pairs.json"))

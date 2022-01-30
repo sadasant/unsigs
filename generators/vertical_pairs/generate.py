@@ -65,20 +65,6 @@ def is_vertical_pair(pair):
     return top_group_a == bottom_group_a and top_group_b == bottom_group_b
 
 
-print(is_vertical_pair((26642, 26701)))
-print(is_vertical_pair((12142, 12397)))
-print(is_vertical_pair((16588, 23666)))
-print(is_vertical_pair((1507, 148)))
-print(is_vertical_pair((144, 6)))
-print(is_vertical_pair((23258, 10370)))
-print(is_vertical_pair((22888, 28060)))
-
-# /show numbers:6121,19880,1189,9110 columns:2
-# Should be false!
-# test2x2 = [(6121, 1189), (19880, 9110)]
-# print(is_2x2(test2x2))
-
-
 def generate():
     all_vertical_pairs = []
     for indices in product(unsig_range, repeat=2):
@@ -92,6 +78,3 @@ def generate():
 
 
 time(lambda: write(generate(), "vertical_pairs.json"))
-
-print(is_vertical_pair((6121, 19880)))  # Should be false!
-print(is_vertical_pair((1189, 9110)))  # Should be false!
