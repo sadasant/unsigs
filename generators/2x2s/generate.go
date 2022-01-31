@@ -53,12 +53,12 @@ func main() {
 
 	len_hPairs := len(hPairs)
 
-	mar5manTop := 47379186 // 47 379 186
 	startTime := time.Now()
 	count := 0
 
 	totalSections := 5
-	for section := 0; section < totalSections; section++ {
+	maxSection := 1
+	for section := 0; section < maxSection; section++ {
 		perSection := len_hPairs / totalSections
 		start := perSection * section
 		end := perSection * (section + 1)
@@ -79,12 +79,10 @@ func main() {
 			panic(err)
 		}
 
-		prefix := ""
-
 		println("Running section", section, "from", start, "to", end)
+		matches := [][4]uint16{}
 	L:
 		for i := start; i < end; i++ {
-			matches := [][4]uint16{}
 			for j := 0; j < end; j++ {
 				if i == j {
 					continue
@@ -99,24 +97,19 @@ func main() {
 			if len(matches) == 0 {
 				continue L
 			}
-			if count%10000 == 0 {
-				seconds := int(time.Since(startTime).Seconds())
-				print("\rRow:", i, " SecondsElapsed:", seconds, " Count:", count, " MinutesLeft:", (mar5manTop*seconds)/count/60, "        ")
-			}
-			jsonString, _ := json.Marshal(matches)
-			file.Write(append([]byte(prefix), jsonString[1:len(jsonString)-1]...))
-			if prefix == "" {
-				prefix = ","
+			seconds := int(time.Since(startTime).Seconds())
+			if count%100 == 0 {
+				print("\rRow:", i, " SecondsElapsed:", seconds, " Count:", count, " MinutesPerMillion:", int(float32(seconds)/(float32(count)/1000000)/60), "        ")
 			}
 		}
-		println("Done section", section)
-
-		endString := "]"
-		if _, err = file.WriteString(endString); err != nil {
+		jsonString, err := json.Marshal(matches)
+		if err != nil {
 			panic(err)
 		}
+		file.Write(jsonString)
+		println("Done section", section)
 	}
 
 	println("Done!")
-	println(count, "should be", mar5manTop)
+	println("Counted:", count)
 }
