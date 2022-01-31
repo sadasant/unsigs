@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"os"
@@ -50,64 +51,72 @@ func main() {
 	println(vMap[22888][28060])
 	println(is2x2(10796, 10798, 10818, 10820))
 
-	fileName := "2x2s.json"
 	len_hPairs := len(hPairs)
-	end := len_hPairs
-	println("End:", end)
-
-	err := ioutil.WriteFile(fileName, []byte{}, 0644)
-	if err != nil {
-		log.Fatal("Failed to write", fileName)
-	}
-
-	file, err := os.OpenFile(fileName, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600)
-	if err != nil {
-		panic(err)
-	}
-	defer file.Close()
-
-	if _, err = file.WriteString("["); err != nil {
-		panic(err)
-	}
 
 	mar5manTop := 47379186 // 47 379 186
 	startTime := time.Now()
 	count := 0
-	println("Running!")
-L:
-	for i := 0; i < end; i++ {
-		matches := [][4]uint16{}
-		for j := 0; j < end; j++ {
-			if i == j {
-				continue
+
+	totalSections := 5
+	for section := 0; section < totalSections; section++ {
+		perSection := len_hPairs / totalSections
+		start := perSection * section
+		end := perSection * (section + 1)
+
+		fileName := fmt.Sprintf("2x2s_%v.json", section)
+		err := ioutil.WriteFile(fileName, []byte{}, 0644)
+		if err != nil {
+			log.Fatal("Failed to write", fileName)
+		}
+
+		file, err := os.OpenFile(fileName, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600)
+		if err != nil {
+			panic(err)
+		}
+		defer file.Close()
+
+		if _, err = file.WriteString("["); err != nil {
+			panic(err)
+		}
+
+		prefix := ""
+
+		println("Running section", section, "from", start, "to", end)
+	L:
+		for i := start; i < end; i++ {
+			matches := [][4]uint16{}
+			for j := 0; j < end; j++ {
+				if i == j {
+					continue
+				}
+				h1 := hPairs[i]
+				h2 := hPairs[j]
+				if is2x2(h1[0], h1[1], h2[0], h2[1]) {
+					matches = append(matches, [4]uint16{h1[0], h1[1], h2[0], h2[1]})
+					count += 1
+				}
 			}
-			h1 := hPairs[i]
-			h2 := hPairs[j]
-			if is2x2(h1[0], h1[1], h2[0], h2[1]) {
-				matches = append(matches, [4]uint16{h1[0], h1[1], h2[0], h2[1]})
-				count += 1
+			if len(matches) == 0 {
+				continue L
+			}
+			if count%10000 == 0 {
+				seconds := int(time.Since(startTime).Seconds())
+				print("\rRow:", i, " SecondsElapsed:", seconds, " Count:", count, " MinutesLeft:", (mar5manTop*seconds)/count/60, "        ")
+			}
+			jsonString, _ := json.Marshal(matches)
+			file.Write(append([]byte(prefix), jsonString[1:len(jsonString)-1]...))
+			if prefix == "" {
+				prefix = ","
 			}
 		}
-		if len(matches) == 0 {
-			continue L
+		println("Done section", section)
+
+		endString := "]"
+		if _, err = file.WriteString(endString); err != nil {
+			panic(err)
 		}
-		if count%10000 == 0 {
-			seconds := int(time.Since(startTime).Seconds())
-			print("\r", i, " ", seconds, " ", count, " minutes left: ", (mar5manTop*seconds)/count/60, "        ")
-		}
-		jsonString, _ := json.Marshal(matches)
-		prefix := ","
-		if i == 0 {
-			prefix = ""
-		}
-		file.Write(append([]byte(prefix), jsonString[1:len(jsonString)-1]...))
 	}
 
 	println("Done!")
 	println(count, "should be", mar5manTop)
-
-	endString := "]"
-	if _, err = file.WriteString(endString); err != nil {
-		panic(err)
-	}
 }
