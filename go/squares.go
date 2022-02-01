@@ -5,7 +5,7 @@ import (
 )
 
 type SquaresOptions struct {
-	verticalOrientation bool
+	VerticalOrientation bool
 }
 
 // Shape:
@@ -16,7 +16,7 @@ type SquaresOptions struct {
 // 2 4
 func CheckSquare(a uint16, b uint16, c uint16, d uint16, options SquaresOptions) bool {
 	check := CheckVertical
-	if options.verticalOrientation {
+	if options.VerticalOrientation {
 		check = CheckHorizontal
 	}
 	// We're assuming a,b and c,d are good horizontal pairs.
@@ -30,7 +30,7 @@ func CheckSquare(a uint16, b uint16, c uint16, d uint16, options SquaresOptions)
 }
 
 func FindSquares(pairs [][2]uint16, options SquaresOptions) ([][4]uint16, error) {
-	if options.verticalOrientation {
+	if options.VerticalOrientation {
 		if !CheckVertical(pairs[0][0], pairs[0][1]) {
 			return nil, errors.New("if `vertical` is set, the `pairs` array should be composed of vertical pairs")
 		}

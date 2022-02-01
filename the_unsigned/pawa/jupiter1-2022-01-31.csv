@@ -1,0 +1,828 @@
+"Policy","Asset Id","Asset name","Fingerprint","Minted at","Quantity","URL","Properties"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig23752","unsig23752","asset1pufh4u6utr8axf6xm6ra0my8c3vjyrdn8lseyg","2021-05-29T18:15:32.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig23752","unsigs / rotations","5","0
+270
+270
+90
+0","unsigs / num_props","1","5","unsigs / multipliers","5","1
+1
+1
+4
+4","unsigs / index","1","23752","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Red
+Green
+Blue
+Red
+Green","title","1","unsig_23752","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig23467","unsig23467","asset1zuspeuj9zxy8lszd735y82zgfurg4ql9zzm33u","2021-05-30T14:44:14.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig23467","unsigs / rotations","5","0
+180
+270
+0
+90","unsigs / num_props","1","5","unsigs / multipliers","5","1
+1
+1
+1
+4","unsigs / index","1","23467","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Red
+Green
+Green
+Blue
+Red","title","1","unsig_23467","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig06883","unsig06883","asset1sy0jx52q4y3xed65u7fpuhr54dwc9wp3sw02cl","2021-05-31T05:43:51.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig06883","unsigs / rotations","4","180
+180
+0
+270","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+0.5
+4
+4","unsigs / index","1","6883","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Blue
+Green
+Green","title","1","unsig_06883","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig09142","unsig09142","asset1fem3meunx7j99h0zftsuzndrvt4vxtk2gwjmkt","2021-06-01T22:16:30.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig09142","unsigs / rotations","4","0
+90
+270
+180","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+1
+2","unsigs / index","1","9142","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Green
+Green
+Blue
+Red","title","1","unsig_09142","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig12102","unsig12102","asset1pjrvkmzdtevhz34ajpg5faqgfyze5dwmshq3zr","2021-06-03T05:29:27.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig12102","unsigs / rotations","5","0
+90
+180
+270
+180","unsigs / num_props","1","5","unsigs / multipliers","5","0.5
+1
+2
+2
+2","unsigs / index","1","12102","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Blue
+Green
+Red
+Red
+Green","title","1","unsig_12102","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig07432","unsig07432","asset1kn3j7uy90vvw506s9j38dhe68fp3fs99klnwrz","2021-06-05T16:38:43.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig07432","unsigs / rotations","4","0
+180
+270
+90","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+1
+1
+2","unsigs / index","1","7432","unsigs / distributions","4","Normal
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Blue
+Blue
+Green","title","1","unsig_07432","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig00385","unsig00385","asset1ct568fg3hza26t6hkcnxk0q6kh2l8wnutyjard","2021-06-07T11:24:01.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig00385","unsigs / rotations","3","0
+270
+90","unsigs / num_props","1","3","unsigs / multipliers","3","0.5
+2
+4","unsigs / index","1","385","unsigs / distributions","3","CDF
+CDF
+CDF","unsigs / colors","3","Blue
+Red
+Green","title","1","unsig_00385","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig03739","unsig03739","asset157fvggnvrs5p7luz7nzvprpwhx8h0tn63q40pu","2021-06-10T16:15:40.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig03739","unsigs / rotations","4","90
+0
+0
+270","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+1
+2
+2","unsigs / index","1","3739","unsigs / distributions","4","Normal
+CDF
+CDF
+CDF","unsigs / colors","4","Blue
+Green
+Red
+Red","title","1","unsig_03739","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig08073","unsig08073","asset13jqaxm9su4vyvddtdwf3u06nafh5j2265r45zw","2021-06-10T23:53:23.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig08073","unsigs / rotations","4","90
+0
+270
+0","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+1
+1
+4","unsigs / index","1","8073","unsigs / distributions","4","Normal
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Green
+Green
+Blue","title","1","unsig_08073","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig08395","unsig08395","asset12cce40cpyhy7sw8fus59tcvmhyjv09zcdgny0d","2021-06-10T23:53:23.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig08395","unsigs / rotations","4","0
+90
+180
+180","unsigs / num_props","1","4","unsigs / multipliers","4","1
+2
+4
+4","unsigs / index","1","8395","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Blue
+Green
+Red
+Green","title","1","unsig_08395","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig00067","unsig00067","asset1nhs080mr80t8xuncrzq2u47nuca7s07pylwrzj","2021-06-11T17:25:33.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig00067","unsigs / rotations","2","0
+90","unsigs / num_props","1","2","unsigs / multipliers","2","0.5
+2","unsigs / index","1","67","unsigs / distributions","2","CDF
+CDF","unsigs / colors","2","Green
+Red","title","1","unsig_00067","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig00940","unsig00940","asset10rfa7l9wpsg3l0vmwztuvjpcqc9uuudgckycuj","2021-06-11T17:25:33.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig00940","unsigs / rotations","3","0
+0
+90","unsigs / num_props","1","3","unsigs / multipliers","3","0.5
+2
+4","unsigs / index","1","940","unsigs / distributions","3","Normal
+CDF
+CDF","unsigs / colors","3","Green
+Blue
+Blue","title","1","unsig_00940","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig08932","unsig08932","asset1g52fhgxfnrt7eahd8qku6a8sqv4g4xg08q0qte","2021-06-14T10:17:13.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig08932","unsigs / rotations","4","0
+90
+90
+180","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+2
+2","unsigs / index","1","8932","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Green
+Blue
+Red
+Red","title","1","unsig_08932","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig09269","unsig09269","asset1z88sxqgkvmm2jxt02pzumzyjn3ty2wun933vx4","2021-06-15T10:12:51.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig09269","unsigs / rotations","4","0
+270
+270
+90","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+1
+4","unsigs / index","1","9269","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Green
+Green
+Blue
+Red","title","1","unsig_09269","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig05609","unsig05609","asset1sddn56fz5v7wf49fr3rwujyf3kcgr8u6n3vy6q","2021-06-15T10:16:43.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig05609","unsigs / rotations","4","90
+0
+0
+90","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+0.5
+2
+4","unsigs / index","1","5609","unsigs / distributions","4","Normal
+Normal
+CDF
+CDF","unsigs / colors","4","Green
+Blue
+Red
+Red","title","1","unsig_05609","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig04009","unsig04009","asset1uxuueduua8pk9stscqc7whsqthdhtdx23qal4v","2021-06-15T10:17:13.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig04009","unsigs / rotations","4","0
+0
+90
+180","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+1
+1
+4","unsigs / index","1","4009","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Green
+Blue
+Blue
+Red","title","1","unsig_04009","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig08217","unsig08217","asset1vs3ksatshdpc8z708s0p4g5ddhw4cup4umjtn6","2021-06-15T10:22:27.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig08217","unsigs / rotations","4","0
+90
+270
+0","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+2
+4","unsigs / index","1","8217","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Blue
+Blue
+Red
+Red","title","1","unsig_08217","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig02696","unsig02696","asset1gm9styvlgdttec3sva7yguxp0htfgqznvtrcm7","2021-06-15T10:24:42.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig02696","unsigs / rotations","4","0
+90
+90
+180","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+1
+2
+4","unsigs / index","1","2696","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Blue
+Red
+Green
+Green","title","1","unsig_02696","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig03650","unsig03650","asset1ydqgd8nzjfz743u6n3cufk7fcq7rr7l5vnpa55","2021-06-15T10:24:42.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig03650","unsigs / rotations","4","0
+90
+90
+180","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+2
+2
+2","unsigs / index","1","3650","unsigs / distributions","4","Normal
+CDF
+CDF
+CDF","unsigs / colors","4","Blue
+Red
+Green
+Green","title","1","unsig_03650","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig10162","unsig10162","asset165s7ff8kd0402cpeh4nhcaltaz80hp64jjagxh","2021-06-15T16:14:53.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig10162","unsigs / rotations","4","0
+270
+90
+180","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+2
+2","unsigs / index","1","10162","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Blue
+Red
+Blue","title","1","unsig_10162","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig01788","unsig01788","asset108xggkscltahq2hdwmnl2u250f6x7z5q9v7re2","2021-06-15T16:16:42.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig01788","unsigs / rotations","3","0
+180
+0","unsigs / num_props","1","3","unsigs / multipliers","3","1
+1
+2","unsigs / index","1","1788","unsigs / distributions","3","CDF
+CDF
+CDF","unsigs / colors","3","Green
+Blue
+Red","title","1","unsig_01788","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig08829","unsig08829","asset1a3jrxem6pk56hhqqhh4g8cdd6w0y9c2ah4mx6s","2021-06-15T16:16:42.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig08829","unsigs / rotations","4","0
+0
+90
+270","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+2
+4","unsigs / index","1","8829","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Green
+Blue
+Green
+Red","title","1","unsig_08829","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig01424","unsig01424","asset1smy0kseqtj68hkksx28kvw8wgg5pnuxe7hhqht","2021-06-16T13:45:48.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig01424","unsigs / rotations","3","0
+0
+90","unsigs / num_props","1","3","unsigs / multipliers","3","0.5
+0.5
+1","unsigs / index","1","1424","unsigs / distributions","3","Normal
+Normal
+CDF","unsigs / colors","3","Red
+Green
+Blue","title","1","unsig_01424","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig07944","unsig07944","asset1u3ngvknaa4zfsfzkh09f003mw9yv92dkjay64s","2021-06-16T15:17:03.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig07944","unsigs / rotations","4","90
+0
+0
+270","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+0.5
+4
+4","unsigs / index","1","7944","unsigs / distributions","4","Normal
+Normal
+CDF
+CDF","unsigs / colors","4","Red
+Blue
+Green
+Green","title","1","unsig_07944","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig11538","unsig11538","asset10nj5cg2a08yvx2ymqzfg4dlt8z6nmm9gyxtv5a","2021-06-17T21:52:41.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig11538","unsigs / rotations","4","180
+90
+0
+270","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+2
+2","unsigs / index","1","11538","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Blue
+Green
+Green","title","1","unsig_11538","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig04335","unsig04335","asset1ug7eu32qw5z0k9wcguajujn223vrllmts9gjej","2021-06-20T13:28:58.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig04335","unsigs / rotations","4","0
+180
+270
+90","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+1
+1
+1","unsigs / index","1","4335","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Green
+Red
+Red
+Blue","title","1","unsig_04335","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig02247","unsig02247","asset14fwee26kezr6jmaspyh8zxe9gth7arha4wqydk","2021-06-21T23:11:19.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig02247","unsigs / rotations","3","0
+90
+0","unsigs / num_props","1","3","unsigs / multipliers","3","2
+2
+4","unsigs / index","1","2247","unsigs / distributions","3","CDF
+CDF
+CDF","unsigs / colors","3","Green
+Blue
+Red","title","1","unsig_02247","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig24521","unsig24521","asset1tegqxklkwc4rsh4l5wv60glewthly693fse8pa","2021-06-23T18:12:01.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig24521","unsigs / rotations","5","0
+90
+90
+180
+270","unsigs / num_props","1","5","unsigs / multipliers","5","1
+1
+2
+2
+4","unsigs / index","1","24521","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Red
+Red
+Green
+Green
+Blue","title","1","unsig_24521","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig06635","unsig06635","asset1qz5ulhzv8dytsj9qwxx7g6fv3u5jdhvc4p4nl9","2021-06-23T18:14:45.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig06635","unsigs / rotations","4","90
+270
+0
+90","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+0.5
+2
+2","unsigs / index","1","6635","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Blue
+Green
+Green","title","1","unsig_06635","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig10897","unsig10897","asset1gyptut64mlu75twsjcyme3sl9zwmee2v483g85","2021-06-23T18:16:49.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig10897","unsigs / rotations","4","0
+270
+90
+0","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+1
+4","unsigs / index","1","10897","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Red
+Green
+Green","title","1","unsig_10897","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig09909","unsig09909","asset1vwvhxxh5ssg2v6yyk5tzmqxn9j0r9u2w8u307v","2021-06-23T18:22:03.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig09909","unsigs / rotations","4","0
+0
+270
+90","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+2
+4","unsigs / index","1","9909","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Blue
+Blue
+Red","title","1","unsig_09909","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig13107","unsig13107","asset18aamepd3393pcnmrxm5cw2merm97yj483e3fa3","2021-06-23T18:22:03.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig13107","unsigs / rotations","5","180
+0
+90
+0
+270","unsigs / num_props","1","5","unsigs / multipliers","5","0.5
+1
+1
+1
+1","unsigs / index","1","13107","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Blue
+Red
+Red
+Green
+Green","title","1","unsig_13107","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig06824","unsig06824","asset1ev6dwhuuendjutdkfx2emq0ggwvsfeu05v7z6l","2021-06-23T18:23:13.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig06824","unsigs / rotations","4","90
+270
+0
+270","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+1
+2
+2","unsigs / index","1","6824","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Green
+Blue
+Blue","title","1","unsig_06824","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig07646","unsig07646","asset1m5pqdzt593jt4tfnegd0szwfcf60x9leq8r36t","2021-06-23T18:30:26.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig07646","unsigs / rotations","4","0
+180
+0
+90","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+1
+1
+2","unsigs / index","1","7646","unsigs / distributions","4","Normal
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Green
+Blue
+Blue","title","1","unsig_07646","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig13820","unsig13820","asset10jcj5ujz7qq2dw7j5cakc5kxmkzmcf57gu4msa","2021-06-23T18:31:26.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig13820","unsigs / rotations","5","0
+180
+0
+270
+90","unsigs / num_props","1","5","unsigs / multipliers","5","0.5
+1
+1
+4
+4","unsigs / index","1","13820","unsigs / distributions","5","Normal
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Blue
+Red
+Green
+Red
+Green","title","1","unsig_13820","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig08390","unsig08390","asset10yaa5hmm849lkc5kd3ppqvwy99yzryufav77d3","2021-06-23T18:33:29.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig08390","unsigs / rotations","4","0
+90
+90
+180","unsigs / num_props","1","4","unsigs / multipliers","4","1
+2
+4
+4","unsigs / index","1","8390","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Blue
+Green
+Red
+Green","title","1","unsig_08390","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig00155","unsig00155","asset12qeudft5csfpaz2v9u0pyp048s0d27m2haznft","2021-06-23T18:35:55.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig00155","unsigs / rotations","2","0
+0","unsigs / num_props","1","2","unsigs / multipliers","2","0.5
+4","unsigs / index","1","155","unsigs / distributions","2","Normal
+CDF","unsigs / colors","2","Red
+Blue","title","1","unsig_00155","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig08150","unsig08150","asset1vr3j835ednykcjd60zv5uqds07evn4kkxyq3hk","2021-06-23T18:35:55.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig08150","unsigs / rotations","4","0
+90
+0
+270","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+2
+4","unsigs / index","1","8150","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Blue
+Blue
+Green
+Green","title","1","unsig_08150","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig10122","unsig10122","asset1x4qlugdslc4c6tesmaxjmft8qsz30qhmux73cm","2021-06-23T18:37:32.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig10122","unsigs / rotations","4","0
+180
+270
+90","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+2
+2","unsigs / index","1","10122","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Blue
+Red
+Blue","title","1","unsig_10122","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig20455","unsig20455","asset1elrvgnygs0963tu5mfd7f0npujrmqquwjsmcd0","2021-06-28T23:27:39.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig20455","unsigs / rotations","5","0
+90
+0
+270
+270","unsigs / num_props","1","5","unsigs / multipliers","5","1
+1
+1
+1
+4","unsigs / index","1","20455","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Green
+Green
+Blue
+Blue
+Red","title","1","unsig_20455","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig09487","unsig09487","asset16ujkcekyyvr77hah8u6j6ft3l5hqru7ugrlnzn","2021-06-29T11:56:57.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig09487","unsigs / rotations","4","0
+0
+180
+90","unsigs / num_props","1","4","unsigs / multipliers","4","1
+2
+2
+4","unsigs / index","1","9487","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Green
+Red
+Blue
+Blue","title","1","unsig_09487","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig01277","unsig01277","asset1ejdwcpe2ht43weme2yfep2mpl92e5xf9qvfqgd","2021-06-29T11:59:29.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig01277","unsigs / rotations","3","90
+0
+90","unsigs / num_props","1","3","unsigs / multipliers","3","0.5
+0.5
+1","unsigs / index","1","1277","unsigs / distributions","3","CDF
+Normal
+CDF","unsigs / colors","3","Red
+Blue
+Green","title","1","unsig_01277","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig11708","unsig11708","asset18ld7q3e22y9y3gsu6wfsvwvnqtva7squ34f9x6","2021-06-29T15:06:04.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig11708","unsigs / rotations","4","0
+0
+0
+90","unsigs / num_props","1","4","unsigs / multipliers","4","2
+2
+2
+4","unsigs / index","1","11708","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Green
+Blue
+Red","title","1","unsig_11708","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig02170","unsig02170","asset1n3f27xpx5rfcrkfzngsgr0dsp88jlrjt7vd4fp","2021-06-29T15:07:44.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig02170","unsigs / rotations","3","0
+90
+90","unsigs / num_props","1","3","unsigs / multipliers","3","1
+4
+4","unsigs / index","1","2170","unsigs / distributions","3","CDF
+CDF
+CDF","unsigs / colors","3","Red
+Red
+Green","title","1","unsig_02170","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig10376","unsig10376","asset1pz3tsh8fu47rmqkc27ttwypl9e49xg8vl0tvs9","2021-06-29T15:09:26.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig10376","unsigs / rotations","4","0
+90
+90
+180","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+2
+2","unsigs / index","1","10376","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Green
+Blue
+Blue","title","1","unsig_10376","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig11132","unsig11132","asset1xtax9evgqrenf6tfdrs9zq9hq2yjelzs0y52sd","2021-06-29T16:47:29.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig11132","unsigs / rotations","4","0
+90
+90
+0","unsigs / num_props","1","4","unsigs / multipliers","4","1
+2
+4
+4","unsigs / index","1","11132","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Green
+Red
+Blue","title","1","unsig_11132","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig13000","unsig13000","asset1mdwup5xh4jga9jweew33gds245qwxg47tu2mx4","2021-06-30T10:45:43.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig13000","unsigs / rotations","5","90
+180
+0
+270
+270","unsigs / num_props","1","5","unsigs / multipliers","5","0.5
+1
+2
+2
+4","unsigs / index","1","13000","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Blue
+Red
+Green
+Green
+Red","title","1","unsig_13000","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig17619","unsig17619","asset1hr3punu38p2p3vtz25hjejzw3a5wyjeg4hxkm3","2021-07-04T20:23:05.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig17619","unsigs / rotations","5","90
+0
+90
+0
+90","unsigs / num_props","1","5","unsigs / multipliers","5","0.5
+1
+1
+1
+2","unsigs / index","1","17619","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Red
+Green
+Green
+Blue
+Blue","title","1","unsig_17619","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig11882","unsig11882","asset1v9szpe865ymuvp0tfj8lvxksr6fwe72dx7shc3","2021-07-06T18:04:59.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig11882","unsigs / rotations","4","0
+270
+0
+90","unsigs / num_props","1","4","unsigs / multipliers","4","2
+2
+2
+2","unsigs / index","1","11882","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Red
+Blue
+Blue","title","1","unsig_11882","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig06998","unsig06998","asset1n8tw5njrva9ncfd57tqh908r4j2n55dy07pc3v","2021-07-09T19:34:57.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig06998","unsigs / rotations","4","270
+90
+0
+90","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+0.5
+1
+1","unsigs / index","1","6998","unsigs / distributions","4","CDF
+Normal
+CDF
+CDF","unsigs / colors","4","Red
+Blue
+Green
+Green","title","1","unsig_06998","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig20257","unsig20257","asset15l8r2qk6sf8ughmlljr8agx9m5cye0q0mfp3wd","2021-07-15T11:08:49.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig20257","unsigs / rotations","5","0
+180
+270
+180
+90","unsigs / num_props","1","5","unsigs / multipliers","5","1
+1
+1
+4
+4","unsigs / index","1","20257","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Green
+Blue
+Blue
+Red
+Green","title","1","unsig_20257","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig20422","unsig20422","asset1pd4qjvl23faprd6gkh30jqlcg0ultfe46dvscg","2021-07-15T19:54:25.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig20422","unsigs / rotations","5","0
+270
+180
+180
+90","unsigs / num_props","1","5","unsigs / multipliers","5","1
+1
+2
+2
+4","unsigs / index","1","20422","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Green
+Blue
+Red
+Blue
+Red","title","1","unsig_20422","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig12588","unsig12588","asset1dwed60efteu9eh7g7yq062hxsk3pdp9f0w8hwt","2021-07-16T00:47:32.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig12588","unsigs / rotations","5","0
+180
+270
+90
+180","unsigs / num_props","1","5","unsigs / multipliers","5","0.5
+1
+1
+1
+1","unsigs / index","1","12588","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Blue
+Red
+Red
+Green
+Green","title","1","unsig_12588","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig02283","unsig02283","asset15p6670esvlk935rp47gxz5dqc3fxyyk7fyru2q","2021-07-16T01:24:15.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig02283","unsigs / rotations","3","0
+0
+90","unsigs / num_props","1","3","unsigs / multipliers","3","2
+4
+4","unsigs / index","1","2283","unsigs / distributions","3","CDF
+CDF
+CDF","unsigs / colors","3","Green
+Red
+Blue","title","1","unsig_02283","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig10242","unsig10242","asset1st5ucmqztug78nmcqw9jyst30626tm9lr4akkm","2021-07-16T15:13:04.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig10242","unsigs / rotations","4","0
+0
+90
+180","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+2
+2","unsigs / index","1","10242","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Green
+Blue
+Blue","title","1","unsig_10242","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig08988","unsig08988","asset1cyye3dnhvp9s22pyhgd27zjwhkcx3l95q5lnj0","2021-07-18T16:15:47.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig08988","unsigs / rotations","4","0
+180
+270
+90","unsigs / num_props","1","4","unsigs / multipliers","4","1
+1
+1
+4","unsigs / index","1","8988","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Green
+Blue
+Blue
+Green","title","1","unsig_08988","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig01755","unsig01755","asset1z95dnf35tpjmex7hzs8nhh4ucczhv0xejfpetr","2021-07-18T16:19:07.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig01755","unsigs / rotations","3","180
+0
+270","unsigs / num_props","1","3","unsigs / multipliers","3","1
+4
+4","unsigs / index","1","1755","unsigs / distributions","3","CDF
+CDF
+CDF","unsigs / colors","3","Blue
+Green
+Green","title","1","unsig_01755","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig21801","unsig21801","asset1dh0ruh7kypxnkhpys80xspvg5xxvxektjymrml","2021-07-20T13:19:18.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig21801","unsigs / rotations","5","180
+0
+270
+90
+0","unsigs / num_props","1","5","unsigs / multipliers","5","1
+2
+2
+2
+4","unsigs / index","1","21801","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Green
+Red
+Red
+Blue
+Blue","title","1","unsig_21801","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig06978","unsig06978","asset1q0xwdscgfg0kuc793mfzndqd2ylhtva4tm87gt","2021-07-22T03:52:29.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig06978","unsigs / rotations","4","180
+0
+270
+90","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+2
+2
+4","unsigs / index","1","6978","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Blue
+Blue
+Green","title","1","unsig_06978","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig12818","unsig12818","asset12t22vvv44sm7y7rvjd35m2gqgwrcpj2tlqcqjg","2021-07-22T03:52:29.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig12818","unsigs / rotations","5","90
+0
+0
+270
+270","unsigs / num_props","1","5","unsigs / multipliers","5","0.5
+1
+2
+2
+2","unsigs / index","1","12818","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Blue
+Green
+Red
+Red
+Green","title","1","unsig_12818","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig07141","unsig07141","asset1cghkr0h76fp7wgd9ujum6yhyggk56t7qc5deu7","2021-07-29T07:38:49.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig07141","unsigs / rotations","4","0
+0
+180
+270","unsigs / num_props","1","4","unsigs / multipliers","4","0.5
+0.5
+2
+2","unsigs / index","1","7141","unsigs / distributions","4","Normal
+Normal
+CDF
+CDF","unsigs / colors","4","Red
+Blue
+Green
+Green","title","1","unsig_07141","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig11849","unsig11849","asset1slgdtj709t4zmdtlrz0a0fhwun0e0cscz6qwml","2021-07-29T11:07:42.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig11849","unsigs / rotations","4","0
+90
+0
+270","unsigs / num_props","1","4","unsigs / multipliers","4","2
+2
+2
+4","unsigs / index","1","11849","unsigs / distributions","4","CDF
+CDF
+CDF
+CDF","unsigs / colors","4","Red
+Red
+Green
+Green","title","1","unsig_11849","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"
+"0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04","unsig25737","unsig25737","asset10apq6kjsyalh24jqrrcs0rda9rwzx8vx5uv2qr","2021-07-29T11:47:14.000Z","1","https://pool.pm/0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04.unsig25737","unsigs / rotations","5","90
+90
+180
+0
+90","unsigs / num_props","1","5","unsigs / multipliers","5","1
+1
+1
+2
+2","unsigs / index","1","25737","unsigs / distributions","5","CDF
+CDF
+CDF
+CDF
+CDF","unsigs / colors","5","Red
+Green
+Green
+Blue
+Blue","title","1","unsig_25737","source_tx_id","1","e4a90da18935e73f7fd6ffaa688b35b011a1a8a710b47bdb5d7103a05afc0197","series","1","unsigned_algorithms"

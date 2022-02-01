@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	println("Results for Pawa (before Jan 31")
+	println("Results for Pawa (before Jan 31)")
 
 	pool := unsigs.LoadUnsigs("pool.csv")
 	fmt.Printf("Unsigs: %v\n", len(pool))
@@ -24,7 +24,7 @@ func main() {
 	}
 	fmt.Printf("Squares: %v\n", len(squares))
 
-	println("\nResults for Pawa (after Jan 31")
+	println("\nResults for Pawa (after Jan 31)")
 
 	pool = unsigs.LoadUnsigs("pool-2022-01-31.csv")
 	fmt.Printf("Unsigs: %v\n", len(pool))
