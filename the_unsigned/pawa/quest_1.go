@@ -24,8 +24,11 @@ func main() {
 
 	jupiter1 := unsigs.LoadUnsigs("jupiter1-2022-01-31.csv")
 	jupiter2 := unsigs.LoadUnsigs("jupiter2-2022-01-31.csv")
+	jupiter3 := unsigs.LoadUnsigs("jupiter3-2022-02-01.csv")
 	jupiter := append(jupiter1, jupiter2[:]...)
-	fmt.Printf("Jupiter's unsigs: (%v + %v) %v\n", len(jupiter1), len(jupiter2), len(jupiter))
+	jupiter = append(jupiter, jupiter3[:]...)
+	jupiter = unsigs.Unique(jupiter)
+	fmt.Printf("Jupiter's unsigs: (%v + %v + %v) %v\n", len(jupiter1), len(jupiter2), len(jupiter3), len(jupiter))
 
 	jupiterHPairs := unsigs.FindHorizontalPairs(jupiter)
 	fmt.Printf("Jupiter's horizontal Pairs: %v\n", len(jupiterHPairs))
@@ -54,28 +57,63 @@ func main() {
 		panic(err)
 	}
 	fmt.Printf("Squares made with three of Jupiter's and one of Pawa's: %v\n", len(squares))
+	fmt.Printf("In details: %v\n", squares)
+	pawaKeys := []uint16{}
+	for _, square := range squares {
+		for _, u := range square {
+			for _, p := range pawa {
+				if u == p {
+					pawaKeys = append(pawaKeys, p)
+				}
+			}
+		}
+	}
+	fmt.Printf("Made with Pawa's: %v\n", pawaKeys)
 
 	pawaHPairs := unsigs.FindHorizontalPairs(pawa)
 	var matches []struct {
 		square  [4]uint16
-		pawa    [2]uint16
-		jupiter [2]uint16
+		pawa    []uint16
+		jupiter []uint16
 	}
-	for _, pawaPair := range pawaHPairs {
-		for _, jupiterPair := range jupiterHPairs {
+	for _, j := range jupiterHPairs {
+		for _, p := range pawaHPairs {
 			var matched struct {
 				square  [4]uint16
-				pawa    [2]uint16
-				jupiter [2]uint16
+				pawa    []uint16
+				jupiter []uint16
 			}
-			matched.pawa = pawaPair
-			matched.jupiter = jupiterPair
-			if unsigs.CheckSquare(pawaPair[0], pawaPair[1], jupiterPair[0], jupiterPair[1], unsigs.SquaresOptions{}) {
-				matched.square = [4]uint16{pawaPair[0], pawaPair[1], jupiterPair[0], jupiterPair[1]}
+			matched.pawa = []uint16{p[0], p[1]}
+			matched.jupiter = []uint16{j[0], j[1]}
+			if unsigs.CheckSquare(p[0], p[1], j[0], j[1], unsigs.SquaresOptions{}) {
+				matched.square = [4]uint16{p[0], p[1], j[0], j[1]}
 				matches = append(matches, matched)
 			}
-			if unsigs.CheckSquare(jupiterPair[0], jupiterPair[1], pawaPair[0], pawaPair[1], unsigs.SquaresOptions{}) {
-				matched.square = [4]uint16{jupiterPair[0], jupiterPair[1], pawaPair[0], pawaPair[1]}
+			if unsigs.CheckSquare(j[0], j[1], p[0], p[1], unsigs.SquaresOptions{}) {
+				matched.square = [4]uint16{j[0], j[1], p[0], p[1]}
+				matches = append(matches, matched)
+			}
+		}
+		for _, q := range questHPairs {
+			var matched struct {
+				square  [4]uint16
+				pawa    []uint16
+				jupiter []uint16
+			}
+			matched.jupiter = []uint16{j[0], j[1]}
+			if unsigs.Includes(q[0], jupiter) {
+				matched.pawa = []uint16{q[1]}
+				matched.jupiter = append(matched.jupiter, q[0])
+			} else {
+				matched.pawa = []uint16{q[0]}
+				matched.jupiter = append(matched.jupiter, q[1])
+			}
+			if unsigs.CheckSquare(q[0], q[1], j[0], j[1], unsigs.SquaresOptions{}) {
+				matched.square = [4]uint16{q[0], q[1], j[0], j[1]}
+				matches = append(matches, matched)
+			}
+			if unsigs.CheckSquare(j[0], j[1], q[0], q[1], unsigs.SquaresOptions{}) {
+				matched.square = [4]uint16{j[0], j[1], q[0], q[1]}
 				matches = append(matches, matched)
 			}
 		}
