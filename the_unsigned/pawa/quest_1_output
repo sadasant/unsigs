@@ -1,0 +1,91 @@
+Preparing pairs...
+Pawa's Jupiter quest
+Does any unsig from Pawa's complete a 2x2 on Jupiter's?
+
+Pawa's unsigs: 2300
+Jupiter's unsigs: (63 + 62) 125
+Jupiter's horizontal Pairs: 47
+Horizontal pairs completed with 1 of Pawa's: 909
+Squares made with three of Jupiter's and one of Pawa's: 0
+Squares made with two of Jupiter's and two of Pawa's: 16
+In detail:
+
+Match number 1:
+Square:[20097 8882 20257 8988]
+Jupiter:[20257 8988]
+Pawa:[20097 8882]
+
+Match number 2:
+Square:[20257 8988 20097 8882]
+Jupiter:[20257 8988]
+Pawa:[20097 8882]
+
+Match number 3:
+Square:[16671 16571 11882 10122]
+Jupiter:[11882 10122]
+Pawa:[16671 16571]
+
+Match number 4:
+Square:[11882 10122 16671 16571]
+Jupiter:[11882 10122]
+Pawa:[16671 16571]
+
+Match number 5:
+Square:[1652 10099 8150 22104]
+Jupiter:[8150 22104]
+Pawa:[1652 10099]
+
+Match number 6:
+Square:[8150 22104 1652 10099]
+Jupiter:[8150 22104]
+Pawa:[1652 10099]
+
+Match number 7:
+Square:[23396 10162 28539 23799]
+Jupiter:[23396 10162]
+Pawa:[28539 23799]
+
+Match number 8:
+Square:[28275 23174 23396 10162]
+Jupiter:[23396 10162]
+Pawa:[28275 23174]
+
+Match number 9:
+Square:[23402 10980 23396 10162]
+Jupiter:[23396 10162]
+Pawa:[23402 10980]
+
+Match number 10:
+Square:[23396 10162 23402 10980]
+Jupiter:[23396 10162]
+Pawa:[23402 10980]
+
+Match number 11:
+Square:[30202 29078 30279 29326]
+Jupiter:[30279 29326]
+Pawa:[30202 29078]
+
+Match number 12:
+Square:[30279 29326 30202 29078]
+Jupiter:[30279 29326]
+Pawa:[30202 29078]
+
+Match number 13:
+Square:[16571 16671 10122 11882]
+Jupiter:[10122 11882]
+Pawa:[16571 16671]
+
+Match number 14:
+Square:[10122 11882 16571 16671]
+Jupiter:[10122 11882]
+Pawa:[16571 16671]
+
+Match number 15:
+Square:[29078 30202 29326 30279]
+Jupiter:[29326 30279]
+Pawa:[29078 30202]
+
+Match number 16:
+Square:[29326 30279 29078 30202]
+Jupiter:[29326 30279]
+Pawa:[29078 30202]

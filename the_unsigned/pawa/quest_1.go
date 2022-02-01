@@ -53,5 +53,39 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("Squares made with Pawa's: %v\n", len(squares))
+	fmt.Printf("Squares made with three of Jupiter's and one of Pawa's: %v\n", len(squares))
+
+	pawaHPairs := unsigs.FindHorizontalPairs(pawa)
+	var matches []struct {
+		square  [4]uint16
+		pawa    [2]uint16
+		jupiter [2]uint16
+	}
+	for _, pawaPair := range pawaHPairs {
+		for _, jupiterPair := range jupiterHPairs {
+			var matched struct {
+				square  [4]uint16
+				pawa    [2]uint16
+				jupiter [2]uint16
+			}
+			matched.pawa = pawaPair
+			matched.jupiter = jupiterPair
+			if unsigs.CheckSquare(pawaPair[0], pawaPair[1], jupiterPair[0], jupiterPair[1], unsigs.SquaresOptions{}) {
+				matched.square = [4]uint16{pawaPair[0], pawaPair[1], jupiterPair[0], jupiterPair[1]}
+				matches = append(matches, matched)
+			}
+			if unsigs.CheckSquare(jupiterPair[0], jupiterPair[1], pawaPair[0], pawaPair[1], unsigs.SquaresOptions{}) {
+				matched.square = [4]uint16{jupiterPair[0], jupiterPair[1], pawaPair[0], pawaPair[1]}
+				matches = append(matches, matched)
+			}
+		}
+	}
+	fmt.Printf("Squares made with two of Jupiter's and two of Pawa's: %v\n", len(matches))
+	println("In detail:")
+	for i, match := range matches {
+		fmt.Printf("\nMatch number %v:\n", i+1)
+		fmt.Printf("Square:%v\n", match.square)
+		fmt.Printf("Jupiter:%v\n", match.jupiter)
+		fmt.Printf("Pawa:%v\n", match.pawa)
+	}
 }
