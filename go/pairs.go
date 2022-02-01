@@ -28,22 +28,30 @@ func Combinations(unsigs []uint16) [][2]uint16 {
 	return pairs
 }
 
+func CheckVertical(a, b uint16) bool {
+	return vMap[a][b]
+}
+
 func FindVerticalPairs(unsigs []uint16) [][2]uint16 {
 	pairs := Combinations(unsigs)
 	var result [][2]uint16
 	for _, pair := range pairs {
-		if vMap[pair[0]][pair[1]] {
+		if CheckVertical(pair[0], pair[1]) {
 			result = append(result, pair)
 		}
 	}
 	return result
 }
 
+func CheckHorizontal(a, b uint16) bool {
+	return hMap[a][b]
+}
+
 func FindHorizontalPairs(unsigs []uint16) [][2]uint16 {
 	pairs := Combinations(unsigs)
 	var result [][2]uint16
 	for _, pair := range pairs {
-		if hMap[pair[0]][pair[1]] {
+		if CheckHorizontal(pair[0], pair[1]) {
 			result = append(result, pair)
 		}
 	}
