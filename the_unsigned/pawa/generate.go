@@ -24,6 +24,18 @@ func main() {
 	}
 	fmt.Printf("Squares: %v\n", len(squares))
 
+	found2x3s, err := unsigs.Find2x3s(vPairs)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Printf("2x3s: %v\n", len(found2x3s))
+
+	found3x2s, err := unsigs.Find3x2s(hPairs)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Printf("3x2s: %v\n", len(found3x2s))
+
 	println("\nResults for Pawa (after Jan 31)")
 
 	pool = unsigs.LoadUnsigs("pool-2022-01-31.csv")

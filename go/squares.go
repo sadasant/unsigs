@@ -11,7 +11,7 @@ type SquaresOptions struct {
 // Shape:
 // 1 2
 // 3 4
-// Shape if abVertical:
+// Shape if vertical:
 // 1 3
 // 2 4
 func CheckSquare(a uint16, b uint16, c uint16, d uint16, options SquaresOptions) bool {

@@ -1,12 +1,26 @@
 package unsigs
 
-var HPairs [][2]uint16 = LoadPairs("../../generators/horizontal_pairs/horizontal_pairs.json")
-var VPairs [][2]uint16 = LoadPairs("../../generators/vertical_pairs/vertical_pairs.json")
+import (
+	"go/build"
+	"path/filepath"
+)
 
+var HPairs [][2]uint16
+var VPairs [][2]uint16
 var hMap = [UnsigSize][UnsigSize]bool{}
 var vMap = [UnsigSize][UnsigSize]bool{}
 
 func init() {
+	println("Loading pairs...")
+	importPath := "github.com/sadasant/unsigs/go"
+	p, err := build.Default.Import(importPath, "", build.FindOnly)
+	if err != nil {
+		panic(err)
+	}
+	verticalPath, _ := filepath.Abs(filepath.Join(p.Dir, "../generators/horizontal_pairs/horizontal_pairs.json"))
+	HPairs = LoadPairs(verticalPath)
+	horizontalPath, _ := filepath.Abs(filepath.Join(p.Dir, "../generators/vertical_pairs/vertical_pairs.json"))
+	VPairs = LoadPairs(horizontalPath)
 	println("Preparing pairs...")
 	for _, v := range VPairs {
 		vMap[v[0]][v[1]] = true
